@@ -1,24 +1,38 @@
-<htm>
-    <head>
-<link href="style.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
-    </head>
-    <body background="bg.webp">
-        <h3>
-            This is a Font Manipulator notice board!
-            <p>Adjust the distance between your wrist  to adjust the font size of notice</p>
-        </h3>
-        <center>
-<span id="size"></span>
-        </center>
-        <div class="footer">Developed By- Aishika</div>
-    </body>
-</htm>
+
+<html>
+
+<head>
+  <title>Realtime Drawing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpg">
+<center>
+  <h3 class="btn btn-warning heading">FONT MANIPULATOR
+    <br>
+    <span class="note">NOTE - Get your left and right wrist closer to eachother
+      to reduce the font size and to increase the font size 
+      keep your left and right wrist far from each other. 
+    </span>
+    <br>
+    <span id="font_size"></span>
+  </h3>
+  <input id="text">
+</center>
+
+<div class="footer">
+  Developed by - WhitehatJr Team
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
